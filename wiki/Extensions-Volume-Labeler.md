@@ -81,7 +81,7 @@ Typical width balance: B-frame A ≈ B-frame B ≈ enface / 3D column.
 **Load Data…** opens a file dialog. Supported families include:
 
 - `.med`, `.tif` / `.tiff`, `.mat`
-- OCT-oriented: `.oct`, `.ooct`, `.ioct`, `.dcm`, `.img`
+- OCT-oriented: `.oct`, `.ooct`, `.dcm`, `.img`
 
 You can also **drag and drop** files or folders onto the window, or drop a **workspace** variable when MedICS provides that MIME type.
 
