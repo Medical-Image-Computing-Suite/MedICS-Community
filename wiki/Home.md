@@ -20,6 +20,7 @@ MedICS is a cross-platform desktop environment for medical image visualization a
 | [Extensions](Extensions) | Install, create, and publish extensions |
 | [Official Extensions](Official-Extensions) | Index of MedICS Team extensions |
 | [Volume Labeler](Extensions-Volume-Labeler) | 3D volume annotation: paint labels, slabs, 3D view, export |
+| [Volume Viewer](Extensions-Volume-Viewer) | GPU 3D visualization: overlays, render modes, clipping, movies |
 | [Measurement](Extensions-Measurement) | Draw ROIs, 53 measurement types, calibration-aware units, export |
 | [Configuration](Configuration) | `config.ini` reference (theme, window, chat, …) |
 | [Architecture](Architecture) | High-level design and startup lifecycle |

@@ -9,6 +9,7 @@
 * [Extensions](Extensions)
 * [Official Extensions](Official-Extensions)
   * [Volume Labeler](Extensions-Volume-Labeler)
+  * [Volume Viewer](Extensions-Volume-Viewer)
   * [Measurement](Extensions-Measurement)
 * [Configuration](Configuration)
 * [Architecture](Architecture)
