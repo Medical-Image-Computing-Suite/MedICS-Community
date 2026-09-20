@@ -7,6 +7,8 @@
 * [MedImage](MedImage)
 * [Toolboxes](Toolboxes)
 * [Extensions](Extensions)
+* [Official Extensions](Official-Extensions)
+  * [Volume Labeler](Extensions-Volume-Labeler)
 * [Configuration](Configuration)
 * [Architecture](Architecture)
 * [CLI Reference](CLI-Reference)

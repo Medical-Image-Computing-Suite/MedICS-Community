@@ -128,6 +128,7 @@ Many community extensions publish to PyPI with a `Publish[platforms;pythons]` co
 
 ## Related pages
 
+- [Official Extensions](Official-Extensions) — the MedICS Team extensions, with per-extension docs
 - [CLI Reference](CLI-Reference)
 - [Architecture](Architecture)
 - [Getting Started](Getting-Started)
