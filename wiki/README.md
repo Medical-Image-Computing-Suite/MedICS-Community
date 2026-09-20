@@ -40,5 +40,6 @@ when it is configured with a token that can write the wiki.
 | `Extensions.md` | Extensions |
 | `Official-Extensions.md` | Official Extensions (index) |
 | `Extensions-Volume-Labeler.md` | Volume Labeler |
+| `Extensions-Measurement.md` | Measurement |
 | `_Sidebar.md` | Sidebar navigation |
 | `_Footer.md` | Footer |

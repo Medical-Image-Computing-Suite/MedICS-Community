@@ -11,11 +11,11 @@ For the extension system itself (discovery, `extension.json`, packaging, publish
 | Extension | Category | What it does | Docs |
 | --- | --- | --- | --- |
 | **Volume Labeler** | Medical Imaging | Annotate 3D volumes: paint labels on B-frames / enface, constrain work to a slab with boundary curves, inspect in 3D, export label maps | [Volume Labeler](Extensions-Volume-Labeler) |
+| **Measurement** | Analysis | Draw ROIs on images and volumes and measure them: 53 measurement types, calibration-aware units, results export | [Measurement](Extensions-Measurement) |
 | **Image Labeler** | Medical Imaging | Annotate 2D images with multiple label types and annotation workflows | *(page pending)* |
 | **Volume Viewer** | Visualization | 3D / 2D volume visualization with GPU-accelerated rendering and multi-planar reconstruction | *(page pending)* |
 | **OCT Viewer** | Medical Imaging | OCT visualization and analysis | *(page pending)* |
 | **Retinal Layer Segmentation** | Medical Imaging | Automated retinal layer segmentation with quantitative features | *(page pending)* |
-| **Measurement** | Analysis | Draw ROIs on images and volumes and measure them: 53 measurement types, calibration-aware units, results export | *(page pending)* |
 | **GraphicPy** | Visual Programming | Node-based visual programming for building and running computational graphs | *(page pending)* |
 | **Deep Learning Pipeline** | Deep Learning | Design, train, evaluate, test, and deploy deep learning models inside MedICS | *(page pending)* |
 
@@ -86,5 +86,6 @@ The extension manager checks `requires` before loading and reports a clear error
 
 - [Extensions](Extensions) — how extensions work, how to build your own
 - [Volume Labeler](Extensions-Volume-Labeler)
+- [Measurement](Extensions-Measurement)
 - [Toolboxes](Toolboxes)
 - [Workspace and Data](Workspace-and-Data)
