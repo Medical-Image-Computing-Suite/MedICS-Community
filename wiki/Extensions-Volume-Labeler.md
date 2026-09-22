@@ -166,7 +166,7 @@ Configure tools in the top **toolbox**, then paint on B-frame A, B-frame B, or t
 
 ### Per-viewer controls
 
-On each viewer you can **Show / Hide** the label overlay, adjust **transparency**, tune contrast with the low / high spinboxes, and use the colorbar. The **B-frame A** colorbar controls the second volume overlay colormap; the **B-frame B** colorbar controls first volume display contrast.
+On each viewer you can **Show / Hide** the label overlay, adjust **transparency**, tune contrast with the low / high spinboxes, and use the colorbar. The **B-frame A** colorbar controls the second volume overlay colormap; the **B-frame B** colorbar controls first volume display contrast. The second volume overlay and its enface start on the MedICS angiography map (black → red → yellow → white, the map the OCTA algorithm set applies to flow data); pick another map from the colorbar menu if you prefer.
 
 ### Enface painting
 
