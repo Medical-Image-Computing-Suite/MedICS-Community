@@ -16,7 +16,7 @@ MedICS is a cross-platform desktop environment for medical image visualization a
 | [User Interface](User-Interface) | Main window layout, docks, tabs, and menus |
 | [Workspace and Data](Workspace-and-Data) | Variables, `.med` workspaces, and file I/O |
 | [MedImage](MedImage) | The canonical medical-image data model |
-| [Toolboxes](Toolboxes) | PyEditor, ImportData, FilePreview |
+| [Toolboxes](Toolboxes) | PyEditor, Jupyter Lab, ImportData, FilePreview |
 | [Extensions](Extensions) | Install, create, and publish extensions |
 | [Official Extensions](Official-Extensions) | Index of MedICS Team extensions |
 | [Volume Labeler](Extensions-Volume-Labeler) | 3D volume annotation: paint labels, slabs, 3D view, export |
@@ -36,7 +36,7 @@ Typical work happens in a single window:
 - **File Explorer** for the current folder
 - **Central tabs** for toolboxes (editor, importer, preview, extensions)
 - **Variables** dock for the in-memory workspace
-- **Bottom panel** for Jupyter, terminal, and logs
+- **Bottom panel** for the terminal, Jupyter, and logs (plus Results)
 
 Data lives in a shared workspace (`DataDict`) and can be saved as a `.med` file (HDF5). Scripts in **PyEditor** and the embedded **Jupyter** console see the same variables.
 

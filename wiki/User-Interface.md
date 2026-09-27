@@ -15,7 +15,7 @@ MedICS is a single-window Qt desktop application. Toolboxes open as **central ta
 │ c  │         (toolboxes, previews, extensions)     │  dock   │
 │ t  │                                               │         │
 │ i  ├───────────────────────────────────────────────┤         │
-│ v  │  Bottom docks: Jupyter / Terminal / Logs      │         │
+│ v  │  Bottom tabs: Logging | Terminal | Jupyter    │         │
 │ i  │                                               │         │
 │ t  │                                               │         │
 │ y  │                                               │         │
@@ -50,10 +50,12 @@ Typical docks (names may vary slightly by version):
 | --- | --- |
 | **Explorer** | Current project folder; double-click to preview |
 | **Variables** | In-memory workspace keys and shapes |
-| **Jupyter** | In-process kernel sharing the workspace namespace |
-| **Terminal** | Embedded shell |
-| **Logs** | Application log viewer |
 | **Chat / Agent** | Optional AI assistant panel (when enabled) |
+| **Bottom panel** | A single dock holding the tabs **Logging**, **Terminal**, **Jupyter**, and **Results** (when a results extension is loaded) |
+
+The bottom panel is one dock with tabs, not four docks: its entries are aliases of
+the same panel, so hiding one hides the strip. **Terminal** is the tab shown by
+default.
 
 Double-clicking a central tab can toggle dock visibility (layout convenience).
 
@@ -78,6 +80,7 @@ Built-in toolboxes and many extensions open as tabs in the center:
 - **PyEditor** — Python IDE
 - **ImportData** — drag-and-drop importer
 - **FilePreview** — read-only file / volume preview
+- **Jupyter Lab** — JupyterLab in a tab, sharing the workspace as `ws`
 - Extension windows when `windowed` is true in their manifest
 
 See [Toolboxes](Toolboxes) and [Extensions](Extensions).

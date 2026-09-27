@@ -68,7 +68,7 @@ Full CLI details: [CLI Reference](CLI-Reference).
 | Left docks | File Explorer, activity bar for toolboxes |
 | Center | Tabbed toolboxes and previews |
 | Right docks | Variables / workspace inspector |
-| Bottom | Jupyter console, terminal, logs |
+| Bottom | Bottom panel tabs: Logging, Terminal, Jupyter |
 
 See [User Interface](User-Interface) for a full layout guide.
 
