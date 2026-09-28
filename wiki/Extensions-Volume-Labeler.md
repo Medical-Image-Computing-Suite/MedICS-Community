@@ -233,6 +233,14 @@ The default name is `<volume_basename>_lmp`, with the suffix taken from the chos
 
 Prompts for a workspace variable name (default: the currently selected label map name, dialog centred on the main window) and stores the current maps under that variable.
 
+### Save to ws (right-click on an image panel)
+
+Separate from the **Save to WS** button: right-click any image panel (a B-frame, an
+enface view, or the OCTA overlay) and choose **Save to ws...** to store *the image
+that panel is displaying* as a workspace variable. A panel showing two layers
+offers them as a submenu. The name is validated as a Python identifier, and you are
+asked before an existing variable is overwritten.
+
 ---
 
 ## Status bar
