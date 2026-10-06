@@ -16,7 +16,7 @@ When the same ID exists in both places, **entry points win**.
 ## Install an extension
 
 ```bash
-pip install medics-ext-example
+pip install medics-ext-image-registration
 medics
 ```
 
@@ -91,7 +91,7 @@ medics/extensions/
   "name": "My Tool",
   "version": "1.0.0",
   "description": "Does XYZ",
-  "author": "Your Name",
+  "author": "imageregistration",
   "category": "Image Analysis",
   "enabled": true,
   "windowed": true,
