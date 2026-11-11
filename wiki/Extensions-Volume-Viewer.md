@@ -9,7 +9,7 @@
 | **Version** | 1.0.0 |
 | **Category** | Visualization |
 | **Capabilities** | `ui`, `workspace` |
-| **Requires** | MedICS `>=2026rc0`, SDK `>=2026.7.7` |
+| **Requires** | MedICS `>=0.0.1`, SDK `>=2026.7.7` |
 | **Source** | [medics-ext-volume-viewer](https://github.com/Medical-Image-Computing-Suite/medics-ext-volume-viewer) |
 
 ---
@@ -363,7 +363,7 @@ Some quality / GPU / cache changes apply the next time volumes are loaded.
 ## Requirements and license
 
 - Python ≥ 3.11
-- MedICS `>=2026rc0`, SDK `>=2026.7.7`
+- MedICS `>=0.0.1`, SDK `>=2026.7.7`
 - Runtime dependencies: `vtk>=9.3.1`, `SimpleITK>=2.2.0`, `imageio[ffmpeg]>=0.6.0`, `superqt>=0.7.6`
 - License: Proprietary
 

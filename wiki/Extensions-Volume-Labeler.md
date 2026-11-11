@@ -11,7 +11,7 @@
 | **Version** | 1.0.0 |
 | **Category** | Medical Imaging |
 | **Capabilities** | `ui`, `workspace` |
-| **Requires** | MedICS `>=2026rc0`, SDK `>=2026.7.7` |
+| **Requires** | MedICS `>=0.0.1`, SDK `>=2026.7.7` |
 | **Source** | [medics-ext-volume-labeler](https://github.com/Medical-Image-Computing-Suite/medics-ext-volume-labeler) |
 
 ---
@@ -272,7 +272,7 @@ Mouse position and pixel / index values update as you move over the B-frames or 
 ## Requirements
 
 - Python ≥ 3.11
-- MedICS `>=2026rc0`, SDK `>=2026.7.7`
+- MedICS `>=0.0.1`, SDK `>=2026.7.7`
 
 ---
 

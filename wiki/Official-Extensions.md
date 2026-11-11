@@ -64,7 +64,7 @@ Official extensions declare their compatibility in `extension.json`:
   "windowed": true,
   "capabilities": ["ui", "workspace"],
   "requires": {
-    "medics": ">=2026rc0",
+    "medics": ">=0.0.1",
     "sdk": ">=2026.7.7",
     "extensions": []
   }

@@ -12,7 +12,7 @@ It is built on `medics.core.measurement`, so all **53 registered measurement typ
 | **Category** | Analysis |
 | **Capabilities** | `ui`, `agent`, `workspace`, `measurement`, `results` |
 | **Input / output** | `MedImage` → `ResultsDataset` |
-| **Requires** | MedICS `>=2026rc0`, SDK `>=2026.7.7` |
+| **Requires** | MedICS `>=0.0.1`, SDK `>=2026.7.7` |
 | **Source** | [medics-ext-measurement](https://github.com/Medical-Image-Computing-Suite/medics-ext-measurement) |
 
 ---
@@ -249,7 +249,7 @@ Release builds are **Cython-protected** wheels (compiled modules, no `.py` sourc
 ## Requirements
 
 - Python ≥ 3.11
-- MedICS `>=2026rc0`, SDK `>=2026.7.7`
+- MedICS `>=0.0.1`, SDK `>=2026.7.7`
 - License: MIT
 
 ---
